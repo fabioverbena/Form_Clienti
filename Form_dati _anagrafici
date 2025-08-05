@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registrazione Ospite</title>
+</head>
+<body>
+  <h1>Modulo Registrazione</h1>
+  <form>
+    <label>Nome: <input type="text" name="nome" required></label><br><br>
+    <label>Cognome: <input type="text" name="cognome" required></label><br><br>
+    <label>Data di nascita: <input type="date" name="nascita" required></label><br><br>
+    <label>Numero documento: <input type="text" name="doc" required></label><br><br>
+    <label>Nazionalità: <input type="text" name="nazionalità" required></label><br><br>
+    <button type="submit">Invia</button>
+  </form>
+</body>
+</html>
